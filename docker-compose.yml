@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  pool-controller:
+    build: .
+    devices:
+      - /dev/gpiomem
+    volumes:
+      - /sys/class/gpio:/sys/class/gpio
+      - /dev/gpiomem:/dev/gpiomem
+    environment:
+      - GPIOZERO_PIN_FACTORY=rpigpio
