@@ -1,0 +1,26 @@
+"""
+A GPIO pin on the Raspberry Pi board
+"""
+type GPIOPin {
+    number: Int!
+    physicalPin: Int
+    reservedFor: String
+    device: Device 
+}
+
+"""
+Anything connected to a GPIO Pin
+"""
+interface Device {
+    pin: GPIOPin
+    on: Boolean
+}
+
+"""
+A relay switch that can be turned on and off
+"""
+type Relay implements Device {
+    pin: GPIOPin
+    label: String!
+    on: Boolean
+}

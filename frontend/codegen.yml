@@ -1,0 +1,8 @@
+schema: "http://localhost:8000/graphql"  # or URL if you want introspection from your running API
+documents: "src/**/*.graphql"  # your GraphQL queries/mutations/subscriptions files
+generates:
+  src/generated/graphql.ts:
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"

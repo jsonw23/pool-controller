@@ -1,0 +1,39 @@
+input RelayInput {
+    label: String!
+}
+
+input DeviceInput {
+    label: String!
+}
+
+input ConnectionInput {
+    pin: Int!
+    device: DeviceInput!
+}
+
+type Mutation {
+    """
+    Creates a relay in the system
+    """
+    createRelay(relay: RelayInput!): Relay
+
+    """
+    Designates which pin a given device is connected to
+    """
+    connectDevice(connection: ConnectionInput): Device
+
+    """
+    Removes the connection designation from the given relay
+    """
+    disconnectDevice(device: DeviceInput!): Device
+
+    """
+    Turns on the relay with the given label
+    """
+    turnOnRelay(relay: RelayInput!): Relay
+
+    """
+    Turns off the relay with the given label
+    """
+    turnOffRelay(relay: RelayInput!): Relay
+}

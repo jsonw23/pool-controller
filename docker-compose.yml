@@ -9,3 +9,6 @@ services:
       - /dev/gpiomem:/dev/gpiomem
     environment:
       - GPIOZERO_PIN_FACTORY=rpigpio
+    ports:
+      - 8000:8000
+    command: uvicorn app:app --host 0.0.0.0 --port 8000

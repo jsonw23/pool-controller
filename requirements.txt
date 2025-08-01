@@ -1,2 +1,5 @@
 RPi.GPIO
 gpiozero
+ariadne
+starlette
+uvicorn

@@ -1,0 +1,129 @@
+[
+    {
+        "number": 0,
+        "physicalPin": 27,
+        "reservedFor": "EEPROM SDA"
+    },
+    {
+        "number": 1,
+        "physicalPin": 28,
+        "reservedFor": "EEPROM SCL"
+    },
+    {
+        "number": 2,
+        "physicalPin": 3,
+        "reservedFor": "I2C1 SDA"
+    },
+    {
+        "number": 3,
+        "physicalPin": 5,
+        "reservedFor": "I2C1 SCL"
+    },
+    {
+        "number": 4,
+        "physicalPin": 7
+    },
+    {
+        "number": 5,
+        "physicalPin": 29
+    },
+    {
+        "number": 6,
+        "physicalPin": 31
+    },
+    {
+        "number": 7,
+        "physicalPin": 26,
+        "reservedFor": "SPI0 CE1"
+    },
+    {
+        "number": 8,
+        "physicalPin": 24,
+        "reservedFor": "SPI0 CE0"
+    },
+    {
+        "number": 9,
+        "physicalPin": 21,
+        "reservedFor": "SPI0 MISO"
+    },
+    {
+        "number": 10,
+        "physicalPin": 19,
+        "reservedFor": "SPI0 MOSI"
+    },
+    {
+        "number": 11,
+        "physicalPin": 23,
+        "reservedFor": "SPI0 SCLK"
+    },
+    {
+        "number": 12,
+        "physicalPin": 32
+    },
+    {
+        "number": 13,
+        "physicalPin": 33
+    },
+    {
+        "number": 14,
+        "physicalPin": 8,
+        "reservedFor": "UART TX"
+    },
+    {
+        "number": 15,
+        "physicalPin": 10,
+        "reservedFor": "UART RX"
+    },
+    {
+        "number": 16,
+        "physicalPin": 36
+    },
+    {
+        "number": 17,
+        "physicalPin": 11
+    },
+    {
+        "number": 18,
+        "physicalPin": 12,
+        "reservedFor": "PCM CLK"
+    },
+    {
+        "number": 19,
+        "physicalPin": 35,
+        "reservedFor": "PCM FS"
+    },
+    {
+        "number": 20,
+        "physicalPin": 38,
+        "reservedFor": "PCM DIN"
+    },
+    {
+        "number": 21,
+        "physicalPin": 40,
+        "reservedFor": "PCM DOUT"
+    },
+    {
+        "number": 22,
+        "physicalPin": 15
+    },
+    {
+        "number": 23,
+        "physicalPin": 16
+    },
+    {
+        "number": 24,
+        "physicalPin": 18
+    },
+    {
+        "number": 25,
+        "physicalPin": 22
+    },
+    {
+        "number": 26,
+        "physicalPin": 37
+    },
+    {
+        "number": 27,
+        "physicalPin": 13
+    }
+]

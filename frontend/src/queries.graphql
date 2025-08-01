@@ -1,0 +1,7 @@
+query GPIOPins {
+    gpioPins {
+        number
+        physicalPin
+        reservedFor
+    }
+}

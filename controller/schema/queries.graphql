@@ -1,0 +1,21 @@
+type Query {
+    """
+    Returns all of the available GPIO pins
+    """
+    gpioPins: [GPIOPin]
+
+    """
+    Returns the relays registered in the system
+    """
+    relays: [Relay]
+
+    """
+    Returns the relay that's connected to the given pin
+    """
+    relayOnPin(number: Int!): Relay
+
+    """
+    Returns the relay with the given label
+    """
+    relayLabeled(label: String!): Relay
+}
