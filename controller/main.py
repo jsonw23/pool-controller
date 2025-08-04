@@ -1,6 +1,3 @@
-from gpiozero import LED, BadPinFactory
-
-from ariadne import make_executable_schema
 from ariadne.asgi import GraphQL
 
 from starlette.applications import Starlette
@@ -8,11 +5,10 @@ from starlette.responses import Response
 from starlette.routing import Route, Mount
 from starlette.middleware.cors import CORSMiddleware
 
-from .schema import type_defs
-from .resolvers import resolvers
+from .controller import Controller
+from .schema import schema
 
-schema = make_executable_schema(type_defs, resolvers)
-
+controller = Controller.load()
 
 routes = [
     Route("/graphql", GraphQL(schema, debug=True))

@@ -6,10 +6,10 @@
     "configurations": [
         
         {
-            "name": "Python Debugger: Current File",
+            "name": "Pytest",
             "type": "debugpy",
             "request": "launch",
-            "program": "${file}",
+            "module": "pytest",
             "console": "integratedTerminal"
         }
     ]
