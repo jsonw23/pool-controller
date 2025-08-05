@@ -6,3 +6,8 @@ def test_pin_query():
     (success, result) = graphql_sync(schema, { "query": query })
     assert success        
     assert len(result["data"]["gpioPins"]) == 28
+
+    i = 0
+    for pin in result["data"]["gpioPins"]:
+        assert pin["number"] == i
+        i += 1

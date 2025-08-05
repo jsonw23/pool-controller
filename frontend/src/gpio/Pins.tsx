@@ -49,7 +49,7 @@ const Pins = () => {
   for (let i = 1; i <= 40; i++) {
     if (!nextPin.done && nextPin.value?.physicalPin == i) {
         pins.push((
-            <li className={styles.position}>
+            <li className={styles.position} key={i}>
                 <div className={[styles.marker, nextPin.value.reservedFor ?  styles.reserved : ''].join(' ')}>{pinSVG}</div>
                 <div className={styles.label}>
                     <div className={styles.gpioLabel}>GPIO {nextPin.value.number}{nextPin.value.reservedFor && "*"}</div>
@@ -60,7 +60,7 @@ const Pins = () => {
         nextPin = it.next()
     } else {
         pins.push((
-            <li className={styles.position}>
+            <li className={styles.position} key={i}>
                 <div className={[styles.marker, styles.other].join(' ')}>{pinSVG}</div>
             </li>
         ))

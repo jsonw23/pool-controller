@@ -1,129 +1,129 @@
 [
     {
         "number": 0,
-        "physicalPin": 27,
-        "reservedFor": "EEPROM SDA"
+        "physical_pin": 27,
+        "reserved_for": "EEPROM SDA"
     },
     {
         "number": 1,
-        "physicalPin": 28,
-        "reservedFor": "EEPROM SCL"
+        "physical_pin": 28,
+        "reserved_for": "EEPROM SCL"
     },
     {
         "number": 2,
-        "physicalPin": 3,
-        "reservedFor": "I2C1 SDA"
+        "physical_pin": 3,
+        "reserved_for": "I2C1 SDA"
     },
     {
         "number": 3,
-        "physicalPin": 5,
-        "reservedFor": "I2C1 SCL"
+        "physical_pin": 5,
+        "reserved_for": "I2C1 SCL"
     },
     {
         "number": 4,
-        "physicalPin": 7
+        "physical_pin": 7
     },
     {
         "number": 5,
-        "physicalPin": 29
+        "physical_pin": 29
     },
     {
         "number": 6,
-        "physicalPin": 31
+        "physical_pin": 31
     },
     {
         "number": 7,
-        "physicalPin": 26,
-        "reservedFor": "SPI0 CE1"
+        "physical_pin": 26,
+        "reserved_for": "SPI0 CE1"
     },
     {
         "number": 8,
-        "physicalPin": 24,
-        "reservedFor": "SPI0 CE0"
+        "physical_pin": 24,
+        "reserved_for": "SPI0 CE0"
     },
     {
         "number": 9,
-        "physicalPin": 21,
-        "reservedFor": "SPI0 MISO"
+        "physical_pin": 21,
+        "reserved_for": "SPI0 MISO"
     },
     {
         "number": 10,
-        "physicalPin": 19,
-        "reservedFor": "SPI0 MOSI"
+        "physical_pin": 19,
+        "reserved_for": "SPI0 MOSI"
     },
     {
         "number": 11,
-        "physicalPin": 23,
-        "reservedFor": "SPI0 SCLK"
+        "physical_pin": 23,
+        "reserved_for": "SPI0 SCLK"
     },
     {
         "number": 12,
-        "physicalPin": 32
+        "physical_pin": 32
     },
     {
         "number": 13,
-        "physicalPin": 33
+        "physical_pin": 33
     },
     {
         "number": 14,
-        "physicalPin": 8,
-        "reservedFor": "UART TX"
+        "physical_pin": 8,
+        "reserved_for": "UART TX"
     },
     {
         "number": 15,
-        "physicalPin": 10,
-        "reservedFor": "UART RX"
+        "physical_pin": 10,
+        "reserved_for": "UART RX"
     },
     {
         "number": 16,
-        "physicalPin": 36
+        "physical_pin": 36
     },
     {
         "number": 17,
-        "physicalPin": 11
+        "physical_pin": 11
     },
     {
         "number": 18,
-        "physicalPin": 12,
-        "reservedFor": "PCM CLK"
+        "physical_pin": 12,
+        "reserved_for": "PCM CLK"
     },
     {
         "number": 19,
-        "physicalPin": 35,
-        "reservedFor": "PCM FS"
+        "physical_pin": 35,
+        "reserved_for": "PCM FS"
     },
     {
         "number": 20,
-        "physicalPin": 38,
-        "reservedFor": "PCM DIN"
+        "physical_pin": 38,
+        "reserved_for": "PCM DIN"
     },
     {
         "number": 21,
-        "physicalPin": 40,
-        "reservedFor": "PCM DOUT"
+        "physical_pin": 40,
+        "reserved_for": "PCM DOUT"
     },
     {
         "number": 22,
-        "physicalPin": 15
+        "physical_pin": 15
     },
     {
         "number": 23,
-        "physicalPin": 16
+        "physical_pin": 16
     },
     {
         "number": 24,
-        "physicalPin": 18
+        "physical_pin": 18
     },
     {
         "number": 25,
-        "physicalPin": 22
+        "physical_pin": 22
     },
     {
         "number": 26,
-        "physicalPin": 37
+        "physical_pin": 37
     },
     {
         "number": 27,
-        "physicalPin": 13
+        "physical_pin": 13
     }
 ]
