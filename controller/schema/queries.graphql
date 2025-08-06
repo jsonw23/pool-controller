@@ -2,7 +2,7 @@ type Query {
     """
     Returns all of the available GPIO pins
     """
-    gpioPins: [GPIOPin]
+    gpioPins: [GPIOPin!]
 
     """
     Returns the relays registered in the system

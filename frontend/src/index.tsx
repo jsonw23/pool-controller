@@ -1,15 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '@fontsource/inter';
+
+import { CssBaseline } from '@mui/joy';
+import { CssVarsProvider } from '@mui/joy/styles'
+import InitColorSchemeScript from '@mui/joy/InitColorSchemeScript'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <InitColorSchemeScript />
+    <CssVarsProvider defaultMode="system">
+      <CssBaseline />
+      <App />
+    </CssVarsProvider>
   </React.StrictMode>
 );
 
